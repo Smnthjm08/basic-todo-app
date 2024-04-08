@@ -7,6 +7,7 @@ const pool = new Pool({
     port: "5434",
     database: "perntodo"
 });
+console.log("DB is connected successfully")
 
 module.exports = pool;
 

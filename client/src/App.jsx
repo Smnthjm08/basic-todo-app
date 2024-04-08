@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import InputTodo from "./components/InputTodo";
-import ListTodos from "./components/ListTodo";
+import InputTodos from "./components/InputTodos";
+import ListTodos from "./components/ListTodos";
 
 function App() {
   return <Fragment>
     <div className="container">
-    <InputTodo />
+    <InputTodos />
     <ListTodos />
     </div>
 
